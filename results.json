@@ -1,0 +1,198 @@
+{
+  "E1": {
+    "chain": {
+      "plain": {
+        "ticks": 15,
+        "msgs": 29,
+        "entries": 29,
+        "peak_metric": 16,
+        "final_correct": true
+      },
+      "split": {
+        "ticks": 3,
+        "msgs": 2,
+        "entries": 2,
+        "peak_metric": 16,
+        "final_correct": true
+      },
+      "poison": {
+        "ticks": 3,
+        "msgs": 4,
+        "entries": 4,
+        "peak_metric": 16,
+        "final_correct": true
+      },
+      "ls": {
+        "ticks": 2,
+        "msgs": 2,
+        "final_correct": true
+      }
+    },
+    "triangle": {
+      "plain": {
+        "ticks": 15,
+        "msgs": 84,
+        "entries": 84,
+        "peak_metric": 16,
+        "final_correct": true
+      },
+      "split": {
+        "ticks": 15,
+        "msgs": 32,
+        "entries": 32,
+        "peak_metric": 16,
+        "final_correct": true
+      },
+      "poison": {
+        "ticks": 15,
+        "msgs": 58,
+        "entries": 58,
+        "peak_metric": 16,
+        "final_correct": true
+      },
+      "ls": {
+        "ticks": 2,
+        "msgs": 4,
+        "final_correct": true
+      }
+    }
+  },
+  "E1_identical_traces": {
+    "chain": true,
+    "triangle": true
+  },
+  "E2": {
+    "10": {
+      "dv_ticks": 1.9,
+      "dv_msgs": 10.6,
+      "dv_entries": 16.3,
+      "dv_cpu": 34.8,
+      "ls_ticks": 3.9,
+      "ls_msgs": 44.1,
+      "ls_entries": 129.7,
+      "ls_cpu": 31.1
+    },
+    "20": {
+      "dv_ticks": 3.2,
+      "dv_msgs": 30.5,
+      "dv_entries": 58.5,
+      "dv_cpu": 94.4,
+      "ls_ticks": 5.1,
+      "ls_msgs": 103.3,
+      "ls_entries": 362.9,
+      "ls_cpu": 70.7
+    },
+    "40": {
+      "dv_ticks": 4.1,
+      "dv_msgs": 58.3,
+      "dv_entries": 126.9,
+      "dv_cpu": 193.7,
+      "ls_ticks": 5.9,
+      "ls_msgs": 219.9,
+      "ls_entries": 806.9,
+      "ls_cpu": 148.9
+    },
+    "80": {
+      "dv_ticks": 4.5,
+      "dv_msgs": 114.2,
+      "dv_entries": 317.7,
+      "dv_cpu": 384.5,
+      "ls_ticks": 6.5,
+      "ls_msgs": 461.7,
+      "ls_entries": 1891.5,
+      "ls_cpu": 309.9
+    },
+    "160": {
+      "dv_ticks": 5.5,
+      "dv_msgs": 277.3,
+      "dv_entries": 818.9,
+      "dv_cpu": 878.9,
+      "ls_ticks": 6.9,
+      "ls_msgs": 942.8,
+      "ls_entries": 4017.2,
+      "ls_cpu": 630.4
+    }
+  },
+  "E3": {
+    "10": {
+      "edges": 16,
+      "dv_ticks": 5,
+      "ls_ticks": 5,
+      "dv_msgs": 128,
+      "ls_msgs": 230,
+      "dv_entries": 320,
+      "ls_entries": 736,
+      "dv_table": 10,
+      "dv_state": 42,
+      "ls_state": 32
+    },
+    "20": {
+      "edges": 33,
+      "dv_ticks": 6,
+      "ls_ticks": 6,
+      "dv_msgs": 302,
+      "ls_msgs": 940,
+      "dv_entries": 1320,
+      "ls_entries": 3102,
+      "dv_table": 20,
+      "dv_state": 86,
+      "ls_state": 66
+    },
+    "40": {
+      "edges": 76,
+      "dv_ticks": 7,
+      "ls_ticks": 7,
+      "dv_msgs": 859,
+      "ls_msgs": 4520,
+      "dv_entries": 6080,
+      "ls_entries": 17176,
+      "dv_table": 40,
+      "dv_state": 192,
+      "ls_state": 152
+    },
+    "80": {
+      "edges": 155,
+      "dv_ticks": 7,
+      "ls_ticks": 7,
+      "dv_msgs": 1875,
+      "ls_msgs": 18480,
+      "dv_entries": 24800,
+      "ls_entries": 71610,
+      "dv_table": 80,
+      "dv_state": 390,
+      "ls_state": 310
+    },
+    "160": {
+      "edges": 315,
+      "dv_ticks": 9,
+      "ls_ticks": 9,
+      "dv_msgs": 4536,
+      "ls_msgs": 75360,
+      "dv_entries": 100800,
+      "ls_entries": 296730,
+      "dv_table": 160,
+      "dv_state": 790,
+      "ls_state": 630
+    }
+  },
+  "E4": {
+    "ticks": 80,
+    "load_total_original": 65,
+    "load_total_fixed": 58,
+    "load_last10_original": 0,
+    "load_last10_fixed": 0,
+    "load_peak_original": 29,
+    "load_peak_fixed": 26,
+    "ticks_until_quiet_fixed": 4,
+    "cycle_original": {
+      "44>40": true,
+      "40>8": true,
+      "8>44": true
+    },
+    "cycle_fixed": {
+      "44>40": true,
+      "40>8": false,
+      "8>44": true
+    }
+  }
+}
